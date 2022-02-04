@@ -7,37 +7,14 @@ $(document).ready(function () {
         arrows: true,
         responsive: [
             {
-                breakpoint: 1441,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    infinite: true,
-                }
-            },
-            {
                 breakpoint: 1025,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true,
-                }
-            },
-            {
-                breakpoint: 769,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                }
-            },
-            {
-                breakpoint: 501,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
+                    arrows: true,
                 }
-            }
+            },
         ]
     });
     $('.slider2').slick({
@@ -52,35 +29,30 @@ $(document).ready(function () {
             {
                 breakpoint: 1441,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
+                    centerPadding: '300px',
                 }
             },
             {
                 breakpoint: 1026,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
+                    centerPadding: '200px',
                 }
             },
             {
                 breakpoint: 769,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                }
-            },
-            {
-                breakpoint: 501,
-                settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
+                    centerMode: false,
                 }
-            }
+            },
         ]
     });
     $('.stories__slider').slick({
