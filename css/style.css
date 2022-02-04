@@ -1224,13 +1224,7 @@ body {
 
 @media (max-width: 500px) {
   .itog {
-    margin-top: -700px;
-  }
-}
-
-@media (max-width: 425px) {
-  .itog {
-    margin-top: -700px;
+    margin-top: -400px;
   }
 }
 
