@@ -9,7 +9,7 @@ $(document).ready(function () {
             {
                 breakpoint: 1025,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true,
                     arrows: true,
@@ -35,9 +35,9 @@ $(document).ready(function () {
         arrows: true,
         responsive: [
             {
-                breakpoint: 1026,
+                breakpoint: 1025,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                 }
